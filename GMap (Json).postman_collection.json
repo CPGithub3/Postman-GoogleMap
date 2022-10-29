@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "f313834b-ab84-4817-841d-1b93277014ab",
+		"name": "GMap (Json)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23215278"
+	},
+	"item": [
+		{
+			"name": "Google Maps Add  API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://216.10.245.166/maps/api/place/add/json?key= qaclick123",
+					"protocol": "http",
+					"host": [
+						"216",
+						"10",
+						"245",
+						"166"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"add",
+						"json"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": " qaclick123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Maps Delete  API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
